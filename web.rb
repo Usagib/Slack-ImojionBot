@@ -1,6 +1,6 @@
 require 'sinatra/base'
 
-module SlackMathbot
+module SlackImojionbot
   class Web < Sinatra::Base
     get '/' do
       'Math is good for you.'
