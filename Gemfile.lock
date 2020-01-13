@@ -94,7 +94,6 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.2)
-    rss (0.2.8)
     ruby2_keywords (0.0.2)
     safe_yaml (1.0.5)
     sinatra (2.0.8.1)
@@ -146,7 +145,6 @@ DEPENDENCIES
   rack-test
   rake
   rspec
-  rss
   sinatra
   slack-ruby-bot
   vcr
