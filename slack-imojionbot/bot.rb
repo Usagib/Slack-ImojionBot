@@ -8,6 +8,6 @@ module SlackImojionbot
         title 'hello'
         desc 'Returns instructions for bot usage'
         long_desc 'Returns instructions for bot usage'
-      end
+    end
   end
 end
