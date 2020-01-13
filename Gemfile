@@ -8,6 +8,7 @@ gem 'sinatra'
 gem 'dotenv'
 gem 'celluloid-io'
 gem 'GiphyClient'
+gem 'fakeweb'
 
 group :development, :test do
   gem 'rake'

@@ -42,6 +42,7 @@ GEM
     dotenv (2.7.5)
     ethon (0.12.0)
       ffi (>= 1.3.0)
+    fakeweb (1.3.0)
     faraday (0.17.3)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.13.1)
@@ -138,6 +139,7 @@ DEPENDENCIES
   GiphyClient
   celluloid-io
   dotenv
+  fakeweb
   foreman
   http
   json
