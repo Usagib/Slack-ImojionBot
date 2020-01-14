@@ -54,16 +54,29 @@ Install ImojionBot on your Slack workspace in one click
 
 ### Installation
 
-1. Click the following button to install ImojionBot
+1. Join to the following slack channel to talk with Imojionbot
 
-<br />
-<p align="center">
-<a href="https://slack.com/oauth/authorize?scope=incoming-webhook&client_id=902877965440.892705024161"><img alt=""Add to Slack"" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
-</p>
-<br/>
+* [Join BotTest Slack WorkSpace](https://join.slack.com/t/bottest-wv24096/shared_invite/enQtOTAzNDk1MTIxNTI1LTI4M2IxM2E5OTFjNmJjNzY0ODIyNDkwZWM0MDMzOTc5NTJiNTEzOTVjMmIxNjExZDZmMmI4YWM0OTBjMGE3MGU)
 
-2. Run it locally!: Use $foreman start and your own slack bot instegration
+### Or
 
+2. Run it in your workspace locally!:
+- Clone the repo
+- Create or integrate a new SlackApp [SlackAPI](https://api.slack.com/)
+- Change .env SLACK_API_TOKEN=<yourbotapitoken>
+- Install app on your workspace using SlackAPI
+- $ bundle install
+- $ foreman start
+
+### Or
+
+3. Deploy to Heroku!:
+- Clone the repo
+- Create or integrate a new SlackApp [SlackAPI](https://api.slack.com/)
+- $ heroku create
+- $ heroku config:add SLACK_API_TOKEN=<yourtoken>
+- $ heroku restart
+- Install app on your workspace using SlackAPI
 
 ## Usage
 
