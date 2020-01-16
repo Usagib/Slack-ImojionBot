@@ -2,14 +2,9 @@ require 'sinatra/base'
 
 module SlackImojionbot
   class Web < Sinatra::Base
-    get '/' do
-      if params['code']
-        rc = HTTP.post("https://slack.com/api/oauth.access", params: {
-          code: params['code'],
-          client_id: ENV['SLACK_CLIENT_ID'],
-          client_secret: ENV['SLACK_CLIENT_SECRET']
-          })
+        response = HTTParty.get("https://imojionbot.herokuapp.com/")
+        reponse.code
+        responde.body
       end
-    end
   end
 end
