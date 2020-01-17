@@ -7,7 +7,7 @@ AllCops:
   DisplayCopNames: true
 
 Layout/LineLength:
-  Max: 120
+  Max: 210
 Metrics/MethodLength:
   Max: 20
 Metrics/AbcSize:
@@ -28,6 +28,8 @@ Style/EachForSimpleLoop:
 Style/AndOr:
   Enabled: false
 Style/DefWithParentheses:
+  Enabled: false
+Security/Open:
   Enabled: false
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never

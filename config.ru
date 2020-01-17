@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'dotenv'
 Dotenv.load
 
-require 'slack-imojionbot'
+require 'slack_imojionbot'
 require 'web'
 
 Thread.abort_on_exception = true
@@ -11,9 +11,9 @@ Thread.abort_on_exception = true
 Thread.new do
   begin
     SlackImojionbot::Bot.run
-  rescue Exception => e
-    STDERR.puts "ERROR: #{e}"
-    STDERR.puts e.backtrace
+  rescue StandardError => e
+    warn "ERROR: #{e}"
+    warn e.backtrace
     raise e
   end
 end
