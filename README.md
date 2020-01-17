@@ -52,35 +52,28 @@ Project built in Ruby under SlackAPI
 Install ImojionBot on your Slack workspace in one click
 
 
-### Installation
+## Installation
+### Install Imojiboton your Slack Workspace
 
-1. Join to the following slack channel to talk with Imojionbot
-
-* [Join BotTest Slack WorkSpace](https://join.slack.com/t/bottest-wv24096/shared_invite/enQtOTAzNDk1MTIxNTI1LTI4M2IxM2E5OTFjNmJjNzY0ODIyNDkwZWM0MDMzOTc5NTJiNTEzOTVjMmIxNjExZDZmMmI4YWM0OTBjMGE3MGU)
-
-### Or
-
-2. Run it in your workspace locally!:
-- Clone the repo
-- Create or integrate a new SlackApp [SlackAPI](https://api.slack.com/)
-- Change .env SLACK_API_TOKEN=<yourbotapitoken>
-- Install app on your workspace using SlackAPI
-- $ bundle install
-- $ foreman start
-
-### Or
-
-3. Deploy to Heroku!:
-- Clone the repo
-- Create or integrate a new SlackApp [SlackAPI](https://api.slack.com/)
-- $ heroku create
-- $ heroku config:add SLACK_API_TOKEN=<yourtoken>
-- $ heroku restart
-- Install app on your workspace using SlackAPI
+1. Create a new slack app on [SlackAPI Apps](https://api.slack.com/apps)
+2. In SlackAPI YourNewAPP go to Features > Bot User > Add Bot User and save changes
+3. In SlackAPI YourNewAPP go to Settings > Install your app  > Select workspace
+4. In SlackAPI YourNewAPP go to Features > Oauth & Permissions > Copy Bot User Oauth Token
+5. Change Bot User Oauth token in .env file under SLACK_API_TOKEN (SLACK_API_TOKEN=xxxxx-xxx)
+6. Navigate to your Bot directory (cloned repo)
+7. run $ gem install bundler
+8. run $ bundle
+9. run $ rackup
+10. terminal should show #INFO -- : Successfully connected team YourSlack (TSXXXXXXX) to https://YourSlack-xxxxx.slack.com.
+11. Go to your workspace and enjoy ImojionBot!
 
 ## Usage
 
 Available commands for ImojionBot:
+
+- Imojionbot gifme <keyword> : use to generate automatic gifs!
+### use the following commands to get inmmediate articles on your prefered topic
+
 - ImojionBot cpp
 - ImojionBot css
 - ImojionBot html
@@ -88,10 +81,11 @@ Available commands for ImojionBot:
 - ImojionBot javascript
 - ImojionBot news
 - ImojionBot python
-- ImojionBot reddit
 - ImojionBot ruby
-### use the following commands to get inmmediate articles on your prefered topic
-- Imojionbot gifme <keyword> : use to generate automatic gifs!
+
+
+
+
 
 
 ## Contact

@@ -39,11 +39,6 @@ module SlackImojionbot
         desc 'Python Article'
         long_desc 'Gives you the last python article feed'
       end
-      command :reddit do
-        title 'reddit'
-        desc 'reddit Article'
-        long_desc 'Reddit programming article!'
-      end
       command :gifme do
         title 'gifyou'
         desc 'get gif'
