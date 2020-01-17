@@ -71,7 +71,8 @@ Install ImojionBot on your Slack workspace in one click
 
 Available commands for ImojionBot:
 
-- Imojionbot gifme <keyword> : use to generate automatic gifs!
+- Imojionbot gifme (keyword) : use to generate automatic gifs!
+I.E. @imojionbot gifme cats : will show you a cat gif
 ### use the following commands to get inmmediate articles on your prefered topic
 
 - ImojionBot cpp
