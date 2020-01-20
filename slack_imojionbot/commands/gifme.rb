@@ -1,3 +1,5 @@
+require 'GiphyClient'
+
 module SlackGoogleBot
   module Commands
     class Gifme < SlackRubyBot::Commands::Base

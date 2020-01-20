@@ -55,18 +55,22 @@ Install ImojionBot on your Slack workspace in one click
 ## Installation
 ### Install Imojiboton your Slack Workspace
 
+
 1. Create a new Slack workspace or connect to an existing one [Here- Slack workspace create](https://slack.com/create)
 2. Create a new slack app on [SlackAPI Apps](https://api.slack.com/apps)
 3. In SlackAPI YourNewAPP go to Features > Bot User > Add Bot User and save changes
 4. In SlackAPI YourNewAPP go to Settings > Install your app  > Select workspace
 5. In SlackAPI YourNewAPP go to Features > Oauth & Permissions > Copy Bot User Oauth Token
-6. Change Bot User Oauth token in .env file under SLACK_API_TOKEN (SLACK_API_TOKEN=xxxxx-xxx)
-7. Navigate to your Bot directory (cloned repo)
-8. run $ gem install bundler
-9. run $ bundle
-10. run $ rackup
-11. terminal should show #INFO -- : Successfully connected team YourSlack (TSXXXXXXX) to https://YourSlack-xxxxx.slack.com.
-12. Go to your workspace and enjoy ImojionBot!
+6. Clone this remote repo [ImojionBot Review Branch](https://github.com/Usagib/Slack-ImojionBot/tree/bot_deploy)
+7. Change Bot User Oauth (not to be confused wuth Oauth Token) token in .env file under SLACK_API_TOKEN (SLACK_API_TOKEN=xxxxx-xxx)
+8. Navigate to your Bot directory in your Terminal
+9. Run the following commands on terminal
+10. $ gem install bundler
+11. $ bundle
+12. $ rackup
+13. terminal should #INFO -- : Successfully connected team YourSlack (TSXXXXXXX) to https://YourSlack-xxxxx.slack.com.
+14. Click on the link to go to the Slack workspace with the installed app
+14. Enjoy ImojionBot!
 
 ## Usage
 

@@ -1,3 +1,5 @@
+require 'GiphyClient'
+
 module SlackImojionbot
   module Commands
     class Hello < SlackRubyBot::Commands::Base
