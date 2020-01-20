@@ -72,6 +72,12 @@ Install ImojionBot on your Slack workspace in one click
 14. Click on the link to go to the Slack workspace with the installed app
 14. Enjoy ImojionBot!
 
+## Screenshots
+![screenshot1](screen1.png)
+![screenshot1](screen2.png)
+![screenshot1](screen3.png)
+![screenshot1](screen4.png)
+
 ## Usage
 
 Available commands for ImojionBot:
