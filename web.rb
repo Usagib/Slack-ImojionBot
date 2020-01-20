@@ -2,8 +2,6 @@ require 'sinatra/base'
 
 module SlackImojionbot
   class Web < Sinatra::Base
-    get '/' do
-      # Instantiate a web client
       client = Slack::Web::Client.new
       # Request a token using the temporary code
       rc = client.oauth_access(
@@ -12,6 +10,5 @@ module SlackImojionbot
       code: params[:code]
     )
     token = rc['bot']['bot_access_token']
-    end
   end
 end
