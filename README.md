@@ -78,8 +78,11 @@ Available commands for ImojionBot:
 
 - Imojionbot gifme (keyword) : use to generate automatic gifs!
 I.E. @imojionbot gifme cats : will show you a cat gif
-### use the following commands to get inmmediate articles on your prefered topic
 
+Be sure you have the required workspace permissions
+This is a giphyclient slack integration, see more at: [GiphyAPI](https://developers.giphy.com/)
+
+## use the following commands to get inmmediate articles on your prefered topic
 - ImojionBot cpp
 - ImojionBot css
 - ImojionBot html
@@ -88,9 +91,6 @@ I.E. @imojionbot gifme cats : will show you a cat gif
 - ImojionBot news
 - ImojionBot python
 - ImojionBot ruby
-
-
-
 
 
 
