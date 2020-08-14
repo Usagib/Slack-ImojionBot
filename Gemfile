@@ -1,23 +1,26 @@
 source 'https://rubygems.org'
 
+gem 'celluloid-io'
+gem 'dotenv'
+gem 'fakeweb'
+gem 'GiphyClient'
 gem 'http'
 gem 'json'
-gem 'slack-ruby-bot'
+gem 'mongoid'
+gem 'kaminari-mongoid'
+gem 'mongoid-scroll'
 gem 'puma'
 gem 'sinatra'
-gem 'dotenv'
-gem 'celluloid-io'
-gem 'GiphyClient'
-gem 'fakeweb'
+gem 'slack-ruby-bot'
 
 group :development, :test do
-  gem 'rake'
   gem 'foreman'
+  gem 'rake'
 end
 
 group :test do
-  gem 'rspec'
   gem 'rack-test'
+  gem 'rspec'
   gem 'vcr'
   gem 'webmock'
 end
